@@ -43,7 +43,7 @@ int main()
 	// Display dynamic array values
 	for (int i = 0; i < arrSize; i++)
 	{
-		cout << setw(3) << *(dArray + i);
+		cout << setw(3) << right << *(dArray + i);
 		if ((i+1) % MAXNUMSPERLINE == 0)
 		{
 			cout << endl;
