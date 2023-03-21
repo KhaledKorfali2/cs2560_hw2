@@ -57,10 +57,6 @@ int main()
 	cout << endl;
 
 	// Memory Managment
-	//for (int i = 0; i < arrSize;i++)
-	//{
-	//	delete (dArray + i); // Delete individual elements
-	//}
 	delete[] dArray; // Delete array
 
 	// Return 0 indicating successfull execution
