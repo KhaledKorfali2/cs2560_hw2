@@ -42,7 +42,7 @@ int main()
 	// Display dynamic array values
 	for (int i = 0; i < arrSize; i++)
 	{
-		cout << setw(3) << left << *(dArray + i);
+		cout << setw(3) << *(dArray + i);
 		if ((i+1) % MAXNUMSPERLINE == 0)
 		{
 			cout << endl;
@@ -57,10 +57,10 @@ int main()
 	cout << endl;
 
 	// Memory Managment
-	for (int i = 0; i < arrSize;i++)
-	{
-		delete (dArray + i); // Delete individual elements
-	}
+	//for (int i = 0; i < arrSize;i++)
+	//{
+	//	delete (dArray + i); // Delete individual elements
+	//}
 	delete[] dArray; // Delete array
 
 	// Return 0 indicating successfull execution
