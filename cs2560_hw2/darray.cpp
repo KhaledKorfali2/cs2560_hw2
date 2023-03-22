@@ -42,14 +42,20 @@ int main()
 	// Display dynamic array values
 	for (int i = 0; i < arrSize; i++)
 	{
-		cout << setw(3) << *(dArray + i);
-		if ((i+1) % MAXNUMSPERLINE == 0)
+		cout << setw(3) << *(dArray + i); // format to be 3 wide
+		// Do not output anything after last element is displayed
+		if ((i + 1) != arrSize)
 		{
-			cout << endl;
-		}
-		else
-		{
-			cout << " ";
+			// Adds new line after the 8th element
+			if ((i + 1) % MAXNUMSPERLINE == 0)
+			{
+				cout << endl;
+			}
+			// Add spaces between elements
+			else
+			{
+				cout << " ";
+			}
 		}
 	}
 
