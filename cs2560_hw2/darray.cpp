@@ -1,3 +1,16 @@
+//
+// Name:	Korfali, Khaled
+// HW:		2
+// Due: 	03-22-2023
+// Course:	cs-2560-01-sp23
+//
+// Description:
+//		This code allocates a dynamic array based off a user specified
+//		size, and then populates that array with random numbers between
+//		1 and 100 inclusive. The contents of this dynamic array are then
+//		displayed to the user.
+//
+
 #include<iostream>
 #include<random>
 #include<ctime>
