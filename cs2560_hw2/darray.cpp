@@ -1,6 +1,6 @@
 //
 // Name:	Korfali, Khaled
-// HW:		2
+// Homework:2
 // Due: 	03-22-2023
 // Course:	cs-2560-01-sp23
 //
